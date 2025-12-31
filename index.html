@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TypeScript Project</title>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <p class="nav-title">Week 2 Project</p>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#expense-calculator">Expense Calculator</a></li>
+                <!-- <li ><a class="nav-link" href="#task-manager">Task Manager</a></li>
+                <li ><a class="nav-link" href="#form-validator">Form Validation</a></li>
+                <li ><a class="nav-link" href="#order-calculator">Order calculator</a></li> -->
+            </ul>
+            <!-- <p class="mobile-menu-icon"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="35px" fill="white"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg></p> -->
+        </nav>
+    </header>
+
+    <main>
+        <!-- Expense Calculator -->
+        <section id="expense-calculator">
+            <div>
+                <h1 class="expense-calculator-title"> Expense Calculator</h1>
+                <p class="expense-calculator-subtitle">Track your expenses and calculate totals</p>
+            </div>
+
+            <div class="expense-calculator-container">
+                <div class="input-containers">
+                    <input type="text" id="expense-name" placeholder="Expense name (e.g. Groceries)">
+                    <input type="number" id="expense-amount" placeholder="Amount(Rs.)">
+                    <button class="add-btn"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="white">
+                            <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
+                        </svg> Add Expense</button>
+                </div>
+                <h2 class="expense-list-title">Expenses List</h2>
+                <hr style="height: 1px; color: grey; width: 96%; margin: auto;">
+                <div class="expense-list">
+
+                    <div class="expense-item">
+                        <div class="expense-details">
+                            <div class="expense-name">Groceries</div>
+                            <div class="expense-amount">Rs.1200</div>
+                        </div>
+                        <button class="remove-btn">Remove</button>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
